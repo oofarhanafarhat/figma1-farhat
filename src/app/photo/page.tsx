@@ -10,8 +10,8 @@ const photo = () => {
       </div>
       <div className='flex space-x-3 justify-center items-center'>
       
-        <div  className='flex  flex-col md:flex-row flex-wrap space-x-5 ml-2'>
-        <div className='w-[210] h-[260] bg-gray-400 mb-4 pr-2 ml-5'></div>
+        <div  className='flex  flex-col md:flex-row md:flex-wrap md:space-x-5 md: ml-2'>
+        <div className='md:w-[210] md:h-[260] bg-gray-400 md:mb-4 md:pr-2md:ml-5'></div>
             <Image src="/g1.png" width={210} height={260} alt='' className='mb-4 ' />
             <Image src="/g2.png" width={210} height={260} alt='' className='mb-4' />
             <Image src="/g3.png" width={210} height={260} alt='' className='mb-4' />
