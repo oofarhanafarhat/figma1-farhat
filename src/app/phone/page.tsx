@@ -14,7 +14,7 @@ const Ph = () => {
             <input type="text"placeholder='message* ' className='bg-gray-300 text-opacity-100 pb-20  py-5 rounded-lg pl-4 bg-opacity-100' />
             </div>
             <div>
-               < Image src="/image06.png" width={749}height={369}alt='' className=' w-auto h-auto  md:w-[]749 md:h-[369]'/> 
+               < Image src="/image06.png" width={749}height={369}alt='' className=' w-auto h-full-screen  md:w-[]749 md:h-[369]'/> 
             </div>
         </div>
         <Link href="/rabta"><button className='bg-gray-900 text-gray-300 text-opacity-100 p-3 rounded-lg mt-10 border-2 hover:border-gray-400 hover:transition-300 transform hover:scale-105'> Send Email → </button></Link>
